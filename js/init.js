@@ -23,7 +23,7 @@ let msg = [
     "Anarch, the leader of the ROYAL GUARD and a fish monster, blocks your way with the Violin Bow. Regardless of what you choose, it'll be interesting...",
     "You see an orphanage full of monster children. The orchestra music the oprhans are playing can be heard through the walls. Would you like to call an airstrike down on the children?",
     'You see a octopus strapped to the table. "HELP," it shouts. What would you like to do.',
-    "Feur, a lizard like scientist introduces himself to you. Along with him, you encounter O0S10, Feur's robotic creation. The descision has been made before.",
+    "Hayhayl, a lizard like scientist introduces himself to you. Along with him, you encounter O0S10, Feur's robotic creation. The descision has been made before.",
     "Maxwell Muffet Jr. IV unleashes his fury on you! Act quick!",
     "O0S10 invites you to his show, where you are trapped until someone dies...",
     "The Core... It's the final stretch....",
