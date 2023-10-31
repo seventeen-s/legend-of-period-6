@@ -27,7 +27,7 @@ function bType() {
         txt.innerHTML += msg[c].charAt(i);
         i++;
         txt.style.color = "red";
-        setTimeout(bType, 1);
+        setTimeout(bType, 450);
     } else {
         i = 0;
         ws = -1;
