@@ -11,7 +11,7 @@ function gType() {
         console.log("I-value:" + i);
         txt.innerHTML += msg[c].charAt(i);
         i++;
-        setTimeout(gType, speed);
+        setTimeout(gType, 1);
     } else {
         console.log("message length: " + msg[c + good].length);
         i = 0;
@@ -27,7 +27,7 @@ function bType() {
         txt.innerHTML += msg[c].charAt(i);
         i++;
         txt.style.color = "red";
-        setTimeout(bType, 450);
+        setTimeout(bType, 1);
     } else {
         i = 0;
         ws = -1;
