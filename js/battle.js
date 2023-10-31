@@ -13,13 +13,13 @@ let bossHealthAmount = document.getElementById("bossHealth");
 let energyAmount = document.getElementById("energy");
 let info = document.getElementById("battleText");
 
-let health = 5000000000000;
+let health = 10;
 let energy = 1;
 let bossHP = 20;
 let bossMercy = 0;
 
 let healFactor = 1;
-let attack = 500;
+let attack = 10;
 
 function fight() {
     console.log("You Attacked");
