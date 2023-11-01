@@ -35,7 +35,7 @@ function act() {
     checkForEnergy();
     console.log("You Acted");
     if (energy >= 10) {
-        bossMercy += 20;
+        bossMercy += 7;
         energy -= 10;
     } else {
         info.innerHTML = "Max has good rythym... You can't count."
