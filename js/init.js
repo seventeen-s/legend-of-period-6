@@ -18,19 +18,19 @@ let msg = [
     "You are in the ruins of the old monster kingdom. You encounter many people, some don't care about you, others despise you with their soul. What would you like to do?",
     "Audrreem, the former queen of the underground blocks the door leading to freedom! She says you will be killed if you go past the door. What will you do?",
     "Upon exiting the ruins, you enter the wonderful world of snow. You meet Seven, a funny little skeleton violinist. You also meet his friend, Rease, a tall skeleton who loves spaghetti and aspires to be part of the ROYAL GUARD. What shall you do?",
-    "Rease blocks the way, attempting to capture you and send you to the capitol, where you will be annihilated for your SOUL. What will you do now?",
+    "Seare blocks the way, attempting to capture you and send you to the capitol, where you will be annihilated for your SOUL. What will you do now?",
     "After a skeleTON of fun, you enter a dim area lit by mushrooms and full of waterfalls. You meet the Christy, a lizard-like monster with no arms.                                 Christy is a DIE-HARD Anarch fan (I wonder what that is?). Choose...",
     "Anarch, the leader of the ROYAL GUARD and a fish monster, blocks your way with the Violin Bow. Regardless of what you choose, it'll be interesting...",
     "You see an orphanage full of monster children. The orchestra music the oprhans are playing can be heard through the walls. Would you like to call an airstrike down on the children?",
     'You see a octopus strapped to the table. "HELP," it shouts. What would you like to do.',
     "Hayhayl, a lizard like scientist introduces himself to you. Along with him, you encounter O0S10, Feur's robotic creation. The descision has been made before.",
-    "Maxwell Muffet Jr. IV unleashes his fury on you! Act quick!",
+    "Maxwell Muffet Jr. IV unleashes his fury on you! Fuhuhuhuhu!",
     "O0S10 invites you to his show, where you are trapped until someone dies...",
     "The Core... It's the final stretch....",
     "Seven judges you for all of you actions.",
     "After your long journey, you encounter the King of all Monsters, get ready for a BOSS FIGHT because here comes... Aeloc...",
     "You escaped the underground.",
-    "I am CHARA. The demon that resides in every single one of your SOULs. If you think you've won, you are wrong, for I am the TRUE Winner.",
+    "I am CHARA. The demon that resides in every single one of your SOULs. If you think you've won, you are wrong, for I am the TRUE Winner; entering your soul and controlling you.",
     "You complimented everyone.",
     "You asserted dominance in a kind way. As a result, they let you pass.",
     "You Talked Nicely.",
@@ -139,3 +139,50 @@ function stayDetermined() {
         setTimeout(stayDetermined, 85);
     }
 }
+//change the button text
+function changeButton() {
+    if(e == 1) {
+        btnOne.innerHTML = "Compliment Everyone you encounter!";
+        btnTwo.innerHTML = "Kill them all...";
+    } else if (e==2) {
+        btnOne.innerHTML = "Comfort the Queen with kind words so she can let you pass!";
+        btnTwo.innerHTML = "Kill her...";
+    } else if (e==3) {
+        btnOne.innerHTML = "Talk in a kind manner to everyone you encounter!";
+        btnTwo.innerHTML = "Kill them all...";
+    } else if (e==4) {
+        btnOne.innerHTML = "Compliment the spaghetti master and befriend him!";
+        btnTwo.innerHTML = "Kill him...";
+    } else if(e==5) {
+        btnOne.innerHTML = "Raise everyone's spirits with your charisma!";
+        btnTwo.innerHTML = "Kill them all...";
+    } else if (e==6) {
+        btnOne.innerHTML = "Run away with grace knowing full well you will die if you fight her!";
+        btnTwo.innerHTML = "Kill her...";
+    } else if (e==7) {
+        btnOne.innerHTML = "Enter the orphanage and comliment their music!";
+        btnTwo.innerHTML = '"Yeah, the coordinates of the orphanage are..."';
+    } else if (e==8) {
+        btnOne.innerHTML = "Untie the octopus and let him go";
+        btnTwo.innerHTML = "Use you nails to pinch his tentacles numb, then cut them off slowly to ensure maximum pain and torture...";
+    } else if (e==9) {
+        btnOne.innerHTML = "Bring some refreshments for the residents of this hot area!";
+        btnTwo.innerHTML = "Knock them off into the lava...";
+    } else if (e==10) {
+        btnOne.innerHTML = "Do the Spider Dance!";
+        btnTwo.innerHTML = "Kill him...";
+    } else if (e==11) {
+        btnOne.innerHTML = "Brag about how you won't get hit at all!";
+        btnTwo.innerHTML = "Kill him...";
+    } else if (e==12) {
+        btnOne.innerHTML = "Progress through the 100 level dungeon found in the Core!";
+        btnTwo.innerHTML = "Take the elevator up.";
+    } else if(e==13) {
+        btnOne.innerHTML = "Feel pity for the story he told.";
+        btnTwo.innerHTML = "Brush off his short story and move on to the king.";
+    } else if (e==14) {
+        btnOne.innerHTML = "Good luck!";
+        btnTwo.innerHTML = "You choice does not matter...";
+    }
+}
+setInterval(changeButton, 500);
