@@ -14,7 +14,7 @@ let good = 0;
 let bad = 0;
 
 let msg = [
-    "Hello. To play this game, click one of the two choice buttons below. Click [enter] while text is spelling out to skip to the end, click [enter] when there is no button to continue. When in a battle, use [w], [a], [s], [d], or the arrow keys to move the heart. Click the fight, act, or heal button. This will cost {Energy} which is gained by surviving the attack long enough. The next attack will automatically play when you energy is below 5. Fighting or acting also decreases your HP by one. Acting increases the chance to end the battle. You are a human, let us begin...",
+    "You are human. You are here. You are Fr..",
     "You are in the ruins of the old monster kingdom. You encounter many people, some don't care about you, others despise you with their soul. What would you like to do?",
     "Audrreem, the former queen of the underground blocks the door leading to freedom! She says you will be killed if you go past the door. What will you do?",
     "Upon exiting the ruins, you enter the wonderful world of snow. You meet Seven, a funny little skeleton violinist. You also meet his friend, Rease, a tall skeleton who loves spaghetti and aspires to be part of the ROYAL GUARD. What shall you do?",
