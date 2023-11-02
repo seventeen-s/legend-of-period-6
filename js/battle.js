@@ -61,15 +61,13 @@ function crashGame() {
 
 function checkForHP() {
     if (bossHP <= 0 || bossMercy >= 100) {
-        if (boss == "sans") {
-            crashGame();
-            return;
-        } else {
+
+
             console.log("You actually won!");
             document.getElementById("fightDiv").style.display = "none";
             document.getElementById("storyDiv").style.opacity = "1";
             document.getElementById("storyDiv").style.display = "block";
-        }
+        
     } else if (health <= 0) {
         //document.getElementById("gameOverDiv").style.display = "block";
         // document.getElementById("storyDiv").style.display = "none";
