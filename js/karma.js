@@ -119,6 +119,7 @@ function karmaCounter(k) {
             let fade = 1;
             //console.log("bad: " + bad);
             boss = "sans";
+            window.alert("you're gonna have a REAL bad time...");
             document.getElementById("storyDiv").style.backgroundColor = "black";
             document.getElementById("storyDiv").style.width = "100%";
             document.getElementById("storyDiv").style.height = "100%";
