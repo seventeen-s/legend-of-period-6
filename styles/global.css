@@ -54,10 +54,10 @@ hr {
     height: 13.5%;
     background-color: black;
     margin: 0;
-    position: absolute;
+ /*   position: absolute;
     left: 10%;
     -ms-transform: translateX(-50%);
-    transform: translateX(50%);
+    transform: translateX(50%);*/
     font-size: 30px;
     display: block;
 }
